@@ -217,12 +217,16 @@
   left: 0;
   /* background-color: #ff6700; */
   background-color: #ff0000;
-  background-image: url(../img/mi-logo.png);
+  /* background-image: url(../img/mi-logo.png); */
   background-position: center;
   transition: left 0.3s;
 }
 
 /* 设置home图片 */
+.header .logo .mi {
+  background-image: url(../img/mi-logo.png);
+}
+
 .header .logo .home {
   background-image: url(../img/mi-home.png);
   left: -55px;
