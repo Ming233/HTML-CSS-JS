@@ -447,11 +447,12 @@ ul.left-menu li a:hover {
 .back-top {
   width: 26px;
   height: 206px;
-  background-color: orange;
+  background-color: rgb(226, 224, 224);
   /* 开启固定定位 */
   position: fixed;
 
   bottom: 60px;
+  /* right:60px; 这个会因为窗口大小而导致定位出问题 */
   right: 50%; /*将right值设置为视口宽度的50%*/
 
   margin-right: -639px;
@@ -465,6 +466,7 @@ ul.left-menu li a:hover {
             auto + 0 + 26 + -639px + 50% = 视口宽度
     */
 }
+
 /* 设置下部的广告区域 */
 .ad {
   height: 170px;
