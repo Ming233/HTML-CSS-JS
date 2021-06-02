@@ -6,6 +6,8 @@ This repository is for learning purpose. HTML, CSS, and JS
 
 This is for CSS partice use. have fun.
 
-# 小米商城
+# HTML-CSS-Partice
 
-只用 HTML 和 CSS 复制的商城静态页面，无 JS
+各种练习题
+
+小米商城-只用 HTML 和 CSS 复制的商城静态页面，无 JS
